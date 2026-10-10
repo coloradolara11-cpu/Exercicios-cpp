@@ -6,7 +6,7 @@ int main() {
     int codigo;
 
     cout << "Digite o codigo da prioridade (1-baixa, 2-media, 3-alta, 4-critica): ";
-    cin >> codigo:
+    cin >> codigo;
 
     switch (codigo) {
         case 1:

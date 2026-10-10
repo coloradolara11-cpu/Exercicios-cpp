@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int idade;
 
-    cout "Digite a idade do candidato: ";
+    cout << "Digite a idade do candidato: ";
     cin >> idade;
 
     if (idade >= 18) {

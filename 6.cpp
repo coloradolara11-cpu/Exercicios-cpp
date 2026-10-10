@@ -2,15 +2,15 @@
 
 using namespace std;
  int main() {
-    int Totaltestes, testesaprovados;
+    int TotalTestes, TestesAprovados;
     double percentual;
 
     cout << "Digite a quantidade total de testes executados: ";
-    cin >> totaltestes;
+    cin >> TotalTestes;
     cout << "Digite a quantidade de testes aprovados: ";
-    cin >> testesaprovados;
+    cin >> TestesAprovados;
 
-    percentual = (testesaprovados * 100.0) / totaltestes;
+    percentual = (TestesAprovados * 100.0) / TotalTestes;
 
     cout << "percentual obtido: " << percentual << "%" << endl;
 

@@ -8,14 +8,14 @@ int main() {
     cout << "Digite a percentagem de utilizacao da CPU: ";
     cin >> usoCpu;
 
-    cout << "Uso da CPU" << usoCPU << endl;
-    if (usoCPU < 50) {
+    cout << "Uso da CPU: " << usoCpu << "%" << endl;
+    if (usoCpu < 50) {
         cout << "Status: Uso normal" << endl;
-    } else if (usoCPU <= 80) {
+    } else if (usoCpu <= 80) {
         cout << "Status: Atencao" << endl;
     } else {
-        cout << "Status; Uso critico" << endl;
+        cout << "Status: Uso critico" << endl;
     }
 
     return 0;
-    }
+}

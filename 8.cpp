@@ -11,7 +11,7 @@ int main() {
     cin >> codigo;
 
     if (idade >= 18 && codigo == 1234) {
-        cout >> idade;
+        cin >> idade;
         cout << "Acesso autorizado" << endl;
     } else {
         cout << "Acesso negado" << endl;

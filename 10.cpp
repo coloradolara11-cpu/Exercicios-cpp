@@ -40,8 +40,8 @@ int main() {
     cout << "O projeto é urgente? (s/n): ";
     cin >> urgente;
 
-    valorfinal = valor inicial;
-    if (urgente == 's' || urgente == 's') {
+    valorfinal = valorinicial;
+    if (urgente == 's' || urgente == 'S') {
         valorfinal = valorinicial * 0.20;
     }
 

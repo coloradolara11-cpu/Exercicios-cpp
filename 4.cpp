@@ -1,11 +1,11 @@
 #include <iostream>
 
-using nameplates std;
+using namespace std;
 
 int main() {
     int senha;
 
-    cout << "Digite a senha numerica";
+    cout << "Digite a senha numerica: ";
     cin >> senha;
 
     if (senha == 2026) {
